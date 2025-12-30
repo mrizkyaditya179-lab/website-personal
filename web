@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Html</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href=''>BelajarHtml.</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Html">Html</a></li>
+                    <li><a href="#Pendiri">Pendiri</a></li>
+                    <li><a href="#Organization">Organization</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <li><a href="" class="tbl-biru">Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <!--untuk home-->
+        <section id="Home">
+            <img src="gambar/WhatsApp_Image_2025-12-30_at_16.20.53__1_-removebg-preview.png"/>
+            <div class="kolom">
+                <p class="deskripsi">Mari Belajar Bersama</p>
+                <h2>Tetap Bernafas</h2>
+                <p>selamat berjuang sukses,HIDUP HTML!!!</p>
+                <p><a href=""class="tbl-merah">Pelajari Lebih Lanjut</a></p>
+            </div>
+        </section>
+
+        <!--untuk HTML-->
+        <section id="Html">
+            <div class="kolom">
+                <p class="deskripsi">You Will Need This</p>
+                <h2>HTML</h2>
+                <p>HTML (HyperText Markup Language) adalah bahasa standar untuk membuat struktur dan    konten halaman web, menggunakan tag-tag khusus untuk mendefinisikan elemen seperti teks, gambar, dan tautan agar bisa ditampilkan di web browser, berfungsi sebagai fondasi dasar setiap situs web. Ini adalah bahasa markup yang bekerja dengan memberi instruksi pada browser tentang cara menyusun dan menampilkan informasi, bukan bahasa pemrograman prosedural, dan terus dikelola oleh W3C. </p>
+                <p>HTML (HyperText Markup Language) adalah bahasa standar untuk membuat struktur dan    konten halaman web, menggunakan tag-tag khusus untuk mendefinisikan elemen seperti teks, gambar, dan tautan agar bisa ditampilkan di web browser, berfungsi sebagai fondasi dasar setiap situs web. Ini adalah bahasa markup yang bekerja dengan memberi instruksi pada browser tentang cara menyusun dan menampilkan informasi, bukan bahasa pemrograman prosedural, dan terus dikelola oleh W3C. </p>             
+                <p><a href="" class="tbl-biru">Pelajari Lebih Lanjut</a></p>
+            </div>
+            <img src="gambar/images.png"/>
+        </section>
+
+        <!--untuk cPendiri-->
+        <section id="Pendiri">
+            <div class="tengah">
+                <div class="kolom">
+                    <p class="deskripsi">Pendiri HTML</p>
+                    <h2>Pendiri</h2>
+                    <p>Penemu HTML adalah Sir Tim Berners-Lee, seorang ilmuwan komputer Inggris yang menciptakan HTML (HyperText Markup Language) pada tahun 1991 saat bekerja di CERN untuk mempermudah para peneliti berbagi dokumen melalui internet, dan merilis versi resminya pada tahun 1993.</p>
+                </div>
+
+                <div class="pendiri-list">
+                    <div class="kartu-pendiri">
+                        <img src="gambar/Tim_Berners-Lee_April_2009.jpg"/>
+                        <p>Tim Berners Lee</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--untuk Organization-->
+        <section id="Organization">
+            <div class="tengah">
+                <div class="kolom">
+                    <p class="deskripsi">Our organization</p>
+                    <h2>partners</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum aut aspernatur, iure fugiat nobis maxime esse molestias explicabo autem ex vitae magnam officiis natus vel.</p>
+                </div>
+                <div class="organization-list">
+                    <div class="kartu-organization">
+                        <img src="gambar/images (1).png"/>
+                    </div>
+                     <div class="kartu-organization">
+                        <img src="gambar/CERN_logo_badge.svg.png"/>
+                    </div>
+                     <div class="kartu-organization">
+                        <img src="gambar/images (2).png"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="Contact">
+        <div class="wrapper">
+            <div class="footer">
+                <div class="footer-section">
+                    <h3>BelajarHtml.</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, illum!</p>
+                </div>
+                 <div class="footer-section">
+                    <h3>About.</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, illum!</p>
+                </div>
+                 <div class="footer-section">
+                    <h3>Contact.</h3>
+                    <p>JL.Manchester London United</p>
+                    <p>kode pos:70707070</p>
+                </div>
+                 <div class="footer-section">
+                    <h3>Social Media.</h3>
+                    <p>instagram:</p>
+                    <p>@RizkyAditya_01</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: cadetblue;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom: 1px solid cadetblue;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: cadetblue;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: cadetblue;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: #41644A;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #E9762B;
+    text-decoration: none;
+
+}
+
+a.tbl-merah {
+    background: #E9762B;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-merah:hover {
+     background: #41644A;
+     text-decoration: none;
+
+}
+
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    -webkit-column-width: 100%;
+}
+
+.pendiri-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-pendiri {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-pendiri img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-pendiri p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: cadetblue;
+}
+
+.organization-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-organization {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-organization img{
+    width: 150px;
+    border-radius: 50px;
+}
+
+#contact {
+    background: #dedede;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: cadetblue;
+    width: 100%;
+    line-height: 50px;
+}
